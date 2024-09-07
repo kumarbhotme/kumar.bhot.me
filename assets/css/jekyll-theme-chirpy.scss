@@ -1,0 +1,14 @@
+---
+---
+
+@import 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+hr {
+    border-color: lightgray;
+    margin-bottom: 4rem;
+}
