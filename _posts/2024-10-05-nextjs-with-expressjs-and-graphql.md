@@ -330,7 +330,7 @@ Next.js expected the `/pages` folder to be at the root of the `/src` directory (
 ### Step 6 - The final structure
 
 - Moved `/pages` back to `/src/pages` but their sole purpose would be to import and render the actual content from the `/frontend` folder. The `/src/frontend/pages` would hold all my frontend components and logic. This approach allowed for everything to be organized without breaking Next.js conventions.
-  ```jsx
+  ```tsx
   // src/pages/index.tsx
 
   import Home from '../frontend/pages/Home';
@@ -340,7 +340,7 @@ Next.js expected the `/pages` folder to be at the root of the `/src` directory (
   }
   ```
 - Moved the API routes to `/src/pages/api` from `/src/backend/api`
-- After quite a few fixes and tweaks, it finally shaped up to:
+- After quite a few small fixes and tweaks, it finally shaped up to:
   ```bash
   /project_root
   ├── /public
@@ -390,6 +390,6 @@ It was satisfactory to look at the overall structure and how iteratively I arriv
 
 But all that would be much easier than the challenges above with combining Next.js, Express.js, GraphQL and setting up a clean file/folder structure for the Predeect monolith.
 
-### Concluding summary:
+## Concluding summary:
 
 In this post, I shared my journey of integrating Next.js with Express.js and GraphQL, facing obstacles with serverless limitations and routing mismatches. The biggest challenges were balancing server-side logic while maintaining serverless compatibility and separation of frontend/backend source code while keeping the Next.js conventions. Moving forward, improving SSR and handling more complex GraphQL queries will likely pose additional hurdles, but hopefully, this setup would provide a flexible foundation for further scaling.
