@@ -3,16 +3,16 @@ layout: post
 title:  "Next.js with Express.js and GraphQL"
 ---
 
-# Setting up a monolith with Next.js as frontend with Express.js and GraphQL as backend
+## Setting up a monolith with Next.js as frontend with Express.js and GraphQL as backend
 ---
 > *Disclaimer*:
-- This whole setup was done in about a few hours on day-1 for a new project. The aim was to have a monolith up and running as soon as possible without ignoring the high-level separation of concerns and intuitive folder structure. Other architectural concerns definitely took a back stage
-- It is **not** a step by step guide for you to follow in order to create a similar setup
-- The intention here is to highlight the small challenges I encountered while setting up this combination and how I slowly moved towards a better folder structure.
+- This whole setup was done in about a couple of hours on day-1 for a new project. The aim was to have a monolith up and running quickly without ignoring the high-level separation of concerns and intuitive folder structure. Other architectural concerns definitely took a back stage
+- It is **NOT** a step by step guide for you to follow in order to create a similar setup
+- My intention is to highlight the key challenges I faced in this short exercise, such as structuring the project, integrating Express middleware in Next.js API routes, deploying to Vercel, modularizing GraphQL schemas and resolvers for scalability, and keeping frontend and backend code separated while maintaining compatibility with Next.js conventions.
 
 I was starting a new side project, [Predeect](https://predeect.com), that would allow people with scientific knowledge about any topic to make forecasts (informed predictions) and earn credibility in the respective field. For example, somebody with a good understanding about weather science, can publish their forecasts and build a reputation on the way as the forecasts get validated in time. Other visitors can either consume these future predictions to satisfy their curiosity, or ask interesting questions about the future that would attract forecasters.
 
-This tool would have quite a few public facing pages with dynamic content. For SSR and SSG, I chose Next.js. But I was also aware of [the risk of choosing Next.js for the wrong reasons](https://blog.webf.zone/you-dont-need-next-js-and-ssr-7c6bd27e78d8), and wanted to see if there is an option to merge it with an appropriate backend stack. After exploring a few options, I settled with Express.js and GraphQL.
+This tool would have quite a few public facing pages. For SSR and SSG, I chose Next.js. But I was also aware of [the risk of choosing Next.js for the wrong reasons](https://blog.webf.zone/you-dont-need-next-js-and-ssr-7c6bd27e78d8), and wanted to see if there is an option to merge it with an appropriate backend stack. After exploring a few options, I settled with Express.js and GraphQL as the backend for my application.
 
 ### Step 1: Project initiation with Next.js
 
@@ -132,7 +132,7 @@ While I fixed this, I also wanted to introduce GraphQL.
   };
 
   app.use(
-    '/api/graphql',
+    '/api',
     graphqlHTTP({
       schema: schema,
       rootValue: root,
@@ -329,7 +329,16 @@ Next.js expected the `/pages` folder to be at the root of the `/src` directory (
 
 ### Step 6 - The final structure
 
-- Moved `/pages` back to `/src/pages` and kept `/src/frontend` for all my frontend components and logic. This approach allowed for everything to be organized without breaking Next.js conventions.
+- Moved `/pages` back to `/src/pages` but their sole purpose would be to import and render the actual content from the `/frontend` folder. The `/src/frontend/pages` would hold all my frontend components and logic. This approach allowed for everything to be organized without breaking Next.js conventions.
+  ```jsx
+  // src/pages/index.tsx
+
+  import Home from '../frontend/pages/Home';
+
+  export default function HomePage() {
+    return <Home />;
+  }
+  ```
 - Moved the API routes to `/src/pages/api` from `/src/backend/api`
 - After quite a few fixes and tweaks, it finally shaped up to:
   ```bash
