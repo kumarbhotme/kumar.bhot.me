@@ -389,3 +389,7 @@ It was satisfactory to look at the overall structure and how iteratively I arriv
 - UI component library (maybe Adobe Spectrum)
 
 But all that would be much easier than the challenges above with combining Next.js, Express.js, GraphQL and setting up a clean file/folder structure for the Predeect monolith.
+
+### Concluding summary:
+
+In this post, I shared my journey of integrating Next.js with Express.js and GraphQL, facing obstacles with serverless limitations and routing mismatches. The biggest challenges were balancing server-side logic while maintaining serverless compatibility and separation of frontend/backend source code while keeping the Next.js conventions. Moving forward, improving SSR and handling more complex GraphQL queries will likely pose additional hurdles, but hopefully, this setup would provide a flexible foundation for further scaling.
