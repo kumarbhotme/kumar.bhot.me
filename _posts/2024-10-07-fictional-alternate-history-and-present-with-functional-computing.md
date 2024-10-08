@@ -29,7 +29,7 @@ While imperative languages were designed around the needs and limitations of ear
 
 Imagine a world where the foundational principles of computer hardware were built around data flow and functional concepts rather than the sequential, step-by-step execution model of the Von Neumann architecture. This alternate history could radically affect how we think about programming, hardware, and technology.
 
-![Harmony between functional and procedural computing world](../assets/img/functional-and-procedural-harmony.png)
+![Harmony between functional and procedural computing world](../assets/img/functional-and-procedural-harmony.png){:class="img border left"}
 
 *How things might have unfolded:*
 
