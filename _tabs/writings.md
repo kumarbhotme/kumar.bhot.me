@@ -5,8 +5,11 @@ order: 3
 ---
 
 # Writings
+---
 
 ## Books
+- Management Engineering
+- Being a Better Professional
 
 ## Blogs
   <ul>
