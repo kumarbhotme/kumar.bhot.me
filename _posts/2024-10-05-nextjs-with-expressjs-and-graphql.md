@@ -10,6 +10,8 @@ title:  "Next.js with Express.js and GraphQL"
 - It is **NOT** a step by step guide for you to follow in order to create a similar setup
 - My intention is to highlight the key challenges I faced in this short exercise, such as structuring the project, integrating Express middleware in Next.js API routes, deploying to Vercel, modularizing GraphQL schemas and resolvers for scalability, and keeping frontend and backend code separated while maintaining compatibility with Next.js conventions.
 
+![Next.js as frontend with Express.js and GraphQL backend](../assets/img/nextjs-with-expressjs-and-graphql.png){:class="img border left"}
+
 I was starting a new side project, [Predeect](https://predeect.com), that would allow people with scientific knowledge about any topic to make forecasts (informed predictions) and earn credibility in the respective field. For example, somebody with a good understanding about weather science, can publish their forecasts and build a reputation on the way as the forecasts get validated in time. Other visitors can either consume these future predictions to satisfy their curiosity, or ask interesting questions about the future that would attract forecasters.
 
 This tool would have quite a few public facing pages. For SSR and SSG, I chose Next.js. But I was also aware of [the risk of choosing Next.js for the wrong reasons](https://blog.webf.zone/you-dont-need-next-js-and-ssr-7c6bd27e78d8), and wanted to see if there is an option to merge it with an appropriate backend stack. After exploring a few options, I settled with Express.js and GraphQL as the backend for my application.
