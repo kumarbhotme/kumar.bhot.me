@@ -9,7 +9,7 @@ order: 2
 
 I have always enjoyed reading. My friends found it funny to see me deep into the physics book during the college holidays. If they asked why I was reading academics, I would say, “I was getting bored.” It became a joke.
 
-One of my primary teachers said, "*When we understand a topic well, we don’t need to remember it*". That became the foundation of my learning and practically helped me through my school and university days. 
+One of my primary school teachers use to say, "*When we understand something thoroughly, it becomes a part of us. And, we don’t need to remember it.*". That remained the foundation of my learning till date. 
 
 Before 2011, I mostly read computer and programming-related books. Then I read Sapiens, and after that, I started exploring various topics. Usually, upon finishing a book, I try to find a book with contradictory views.
 
