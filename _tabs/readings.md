@@ -38,7 +38,6 @@ The randomly ordered list here doesn't include everything that I have read, but 
 | The Little Typer | Friedman, Daniel P.; Christiansen, David |
 | The ARTHASHASTRA | Kautilya |
 | Pragmatic Programmer | Andrew, Hunt; Thomas David |
-| Building Your Book for Kindle | Kindle Direct Publishing |
 | Relentless | Grover, Tim S. |
 | The Richest Man in Babylon | Clason, George S.; Editors, GP |
 | Rich Dad Poor Dad | Kiyosaki, Robert T. |
@@ -54,12 +53,12 @@ The randomly ordered list here doesn't include everything that I have read, but 
 | The Principles of Product Development Flow | Reinertsen, Donald G. |
 | Fifty Quick Ideas To Improve Your User Stories | Adzic, Gojko; Evans, David |
 | The War of Art | Pressfield, Steven; Pressfield, Steven |
-| You Don't Know JS | Simpson, Kyle |
-| You Don't Know JS | Simpson, Kyle |
-| You Don't Know JS | Simpson, Kyle |
-| You Don't Know JS | Simpson, Kyle |
-| You Don't Know JS | Simpson, Kyle |
-| You Don't Know JS | Simpson, Kyle |
+| You Don't Know JS - Up &amp; Going | Simpson, Kyle |
+| You Don't Know JS - Scope &amp; Closure | Simpson, Kyle |
+| You Don't Know JS - this &amp; Object Prototypes | Simpson, Kyle |
+| You Don't Know JS - Types &amp; Grammar | Simpson, Kyle |
+| You Don't Know JS - Async &amp; Performance | Simpson, Kyle |
+| You Don't Know JS - ES6 &amp; Beyond | Simpson, Kyle |
 | Continuous Delivery | Humble, Jez; Farley, David |
 | Leading the Transformation | Gruver, Gary; Mouser, Tommy |
 | Continuous Integration | Duvall, Paul M.; Matyas, Steve |
