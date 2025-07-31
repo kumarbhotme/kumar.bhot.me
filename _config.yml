@@ -19,8 +19,7 @@ title: Kumar Bhot
 tagline: Unconventional Leadership for Continuous Improvement
 
 description: >- # used by seo meta and the atom feed
-  I facilitate software engineering teams for self-sufficiency, high performance, and continuous improvement. I’m unconventional, curious, and thought-provoking. As much as I enjoy building software and reading books, I’m also a writer and a proud mono-speaker. 'A wallflower and a bold introvert' can describe my personality well.
-# Fill in the protocol & hostname for your site.
+  I facilitate software engineering teams for self-sufficiency, high performance, and continuous improvement through an unconventional, curious, and thought-provoking style. As much as building software and reading books give me joy, writing and (mono-) speaking are equally fulfilling. 'A wallflower and a bold introvert' might describe my personality well.# Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://kumar.bhot.me"
 
@@ -34,7 +33,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Kumar Bhot
-  email: kumar@bhot.me
+  email: kumarbhot@yahoo.com
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/kumarbhotme # change to your twitter homepage
