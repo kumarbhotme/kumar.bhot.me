@@ -5,4 +5,4 @@ The codebase for my personal website [kumar.bhot.me](https://kumar.bhot.me).
 
 ## About me
 
-I facilitate software engineering teams for self-sufficiency, high performance, and continuous improvement through an unconventional, curious, and thought-provoking style. As much as building software and reading books give me joy, writing and (mono-) speaking are equally fulfilling. 'A wallflower and a bold introvert' might describe my personality well.
+I have repeatedly built software engineering teams for self-sufficiency, high performance, and continuous improvement. The leadership style I believe in is an unconventional, curious, and thought-provoking. As much as building software and reading books give me joy, writing and speaking (to share experiences and knowledge) are equally fulfilling. 'A wallflower and a bold introvert' might describe my personality well.
