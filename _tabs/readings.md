@@ -7,9 +7,9 @@ order: 2
 # Readings
 ---
 
-I have always enjoyed reading. My friends found it funny to see me deep into the physics book during the college holidays. If they asked why I was reading academics, I would say, “I was getting bored.” It became a joke.
+I have always enjoyed reading. Once during my college holidays, my friends found me lost deep into the physics book. When they asked why I was reading academics, I replied, “I was getting bored”. It became a joke.
 
-One of my primary school teachers used to say, "*When we understand something thoroughly, it becomes a part of us. And we don’t need to remember it.*" That has remained the foundation of my learning to this day, thereby the underlying purpose of each of my readings. 
+One of my primary school teachers used to say, "*When we understand something thoroughly, it becomes a part of us. We won’t need to remember it.*" That has remained the foundation of my learning to this day, thereby the underlying purpose of each of my readings. 
 
 Before 2011, I mostly read computer and programming-related books. Then I read Sapiens, and after that, I started exploring various topics. Usually, upon finishing a book, I try to find a book with contradictory views.
 
